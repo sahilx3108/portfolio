@@ -1,8 +1,16 @@
 import { motion } from 'framer-motion';
 
 const projects = [
-  { id: 1, title: 'Solana Wallet Adapter', desc: 'A wallet adapter that lets you connect to cypto wallets' },
-  { id: 2, title: 'Curio Library', desc: 'A personalised web based Library that lets you manage your personal e-books' },
+  { 
+    id: 1, 
+    title: 'Curio Library', 
+    desc: 'A full-stack personalized library built with Next.js (App Router), TypeScript, and MongoDB. Leveraged SSR to reduce FCP by 40%. Designed a modular UI with Shadcn/UI and Tailwind CSS, and optimized data flow with Context API to minimize re-renders by 25%.' 
+  },
+  { 
+    id: 2, 
+    title: 'Solana Wallet Adapter', 
+    desc: 'A decentralized application (dApp) built using React and Vite. Integrated @solana/wallet-adapter for secure Phantom wallet authentication and @solana/web3.js for core blockchain features like Airdrop and Transactions on the Solana Devnet.' 
+  },
 ];
 
 export default function Projects() {

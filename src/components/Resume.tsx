@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion';
+import { Download } from 'lucide-react';
 
 const education = [
-  { year: "2018 - 2022", degree: "BSc Computer Science", institution: "University of Toronto" },
-  { year: "2016 - 2018", degree: "Web Development Bootcamp", institution: "Tech Institute" },
+  { year: "Aug '23 - Present", degree: "B.Tech Computer Science and Engineering (CGPA: 7.3)", institution: "Lovely Professional University, Phagwara" },
+  { year: "Mar '21 - May '22", degree: "Intermediate PCM (75%)", institution: "MD International School, Baghpat" },
+  { year: "Mar '19 - May '20", degree: "Matriculation (87%)", institution: "Christu Jyoti Convent School, Baghpat" },
 ];
 
 const experience = [
-  { year: "2023 - Present", role: "Full Stack Developer", company: "Tech Innovations Inc." },
-  { year: "2022 - 2023", role: "Frontend Developer", company: "Creative Digital Agency" },
+  { year: "Jun '25 - Jul '25", role: "Full Stack Development using MERN", company: "Cipher Schools (Edtech Company)" },
 ];
 
 export default function Resume() {
@@ -17,9 +18,19 @@ export default function Resume() {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
-        className="mb-16 text-center"
+        className="mb-16 text-center flex flex-col items-center gap-6"
       >
         <h2 className="text-3xl font-semibold">Resume & Education</h2>
+        <a 
+          href="/CV.jpg" 
+          download="Aryan_Chaudhary_CV.jpg"
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-brand/90 hover:bg-brand text-white px-6 py-2.5 text-sm font-medium rounded transition-colors shadow-lg shadow-brand/20"
+        >
+          <Download size={18} />
+          <span>Download CV</span>
+        </a>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-5xl mx-auto">

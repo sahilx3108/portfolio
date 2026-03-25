@@ -18,7 +18,7 @@ export default function Contact() {
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-8">Get a quote</h2>
           <p className="text-gray-400 mb-12 max-w-md leading-relaxed">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            Whether you need a modern website, a custom web application, or improvements to your existing platform, I’m here to help. Share your requirements, goals, and timeline, and I’ll provide you with a tailored quote that fits your needs and budget.
           </p>
           
           <div className="space-y-6">

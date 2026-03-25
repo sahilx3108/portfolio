@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { User } from 'lucide-react';
+import profileImg from '../assets/arynothic.png';
 
 export default function Hero() {
   return (
@@ -50,8 +50,8 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="hidden lg:flex relative w-1/2 justify-center items-center h-full min-h-[500px]"
       >
-        <div className="relative w-80 h-80 bg-gray-800/30 rounded-full flex items-center justify-center backdrop-blur-3xl border border-gray-700/50">
-            <User size={120} className="text-gray-500" />
+        <div className="relative w-80 h-80 bg-gray-800/30 rounded-full flex items-center justify-center backdrop-blur-3xl border border-gray-700/50 z-10">
+            <img src={profileImg} alt="Aryan Chaudhary" className="w-full h-full object-cover rounded-full shadow-lg" />
             {/* Decorative particles */}
             <motion.div 
               animate={{ y: [0, -20, 0] }} 

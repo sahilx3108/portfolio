@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Facebook, Youtube } from 'lucide-react';
+import { Linkedin, Github, Twitter } from 'lucide-react';
 
 export default function Sidebar() {
   return (
@@ -7,15 +7,14 @@ export default function Sidebar() {
       
       <div className="flex flex-col items-center gap-8 relative pointer-events-auto">
         <div className="flex flex-col gap-6 text-gray-500">
-          <a href="#" className="hover:text-white transition-colors"><Instagram size={20} /></a>
+          <a href="https://www.linkedin.com/in/aryan-04-chaudhary/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Linkedin size={20} /></a>
+          <a href="https://github.com/arynothic" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Github size={20} /></a>
           <a href="#" className="hover:text-white transition-colors"><Twitter size={20} /></a>
-          <a href="#" className="hover:text-white transition-colors"><Facebook size={20} /></a>
-          <a href="#" className="hover:text-white transition-colors"><Youtube size={20} /></a>
         </div>
         
         <div className="absolute top-1/2 -right-6 flex items-center gap-3 text-sm text-gray-300 translate-x-full -translate-y-1/2">
           <div className="w-6 h-[1px] bg-gray-500"></div>
-          Hello
+          
         </div>
       </div>
       
