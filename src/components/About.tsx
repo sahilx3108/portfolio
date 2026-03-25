@@ -1,11 +1,13 @@
 import { motion } from 'framer-motion';
+import arynothic1 from '../assets/arynothic1.jpg';
+
 
 export default function About() {
   return (
     <section className="py-24 min-h-screen flex items-center" id="about">
       <div className="flex flex-col lg:flex-row items-center gap-16 w-full">
         {/* Image on left */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -13,24 +15,24 @@ export default function About() {
           className="w-full lg:w-2/5 relative flex justify-center"
         >
           <div className="aspect-[3/4] bg-bg-card rounded-lg overflow-hidden relative grayscale hover:grayscale-0 transition-all duration-700 w-full max-w-sm">
-             <img 
-               src="" 
-               alt="Aryan" 
-               className="w-full h-full object-cover" 
-             />
-             <div className="absolute inset-0 bg-brand/10 mix-blend-overlay"></div>
+            <img
+              src={arynothic1}
+              alt="Aryan"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-brand/10 mix-blend-overlay"></div>
           </div>
-          
+
           {/* Decorative cube */}
-          <motion.div 
-            animate={{ rotate: 360 }} 
+          <motion.div
+            animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
             className="absolute top-10 -left-6 md:-left-12 w-12 h-12 bg-brand rounded-lg shadow-[0_0_30px_rgba(249,115,22,0.6)] flex items-center justify-center opacity-80 backdrop-blur"
           />
         </motion.div>
 
         {/* Text on right */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}

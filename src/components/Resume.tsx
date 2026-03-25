@@ -26,7 +26,7 @@ export default function Resume() {
           download="Aryan_Chaudhary_CV.jpg"
           target="_blank" 
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-brand/90 hover:bg-brand text-white px-6 py-2.5 text-sm font-medium rounded transition-colors shadow-lg shadow-brand/20"
+          className="mt-4 inline-flex items-center gap-2 bg-brand/90 hover:bg-brand text-white px-6 py-2.5 text-sm font-medium rounded transition-colors shadow-lg shadow-brand/20"
         >
           <Download size={18} />
           <span>Download CV</span>
