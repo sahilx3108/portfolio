@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import profileImg from '../assets/arynothic.png';
+import profileImg from '../assets/sahil1.jpg';
 
 export default function Hero() {
   return (
@@ -21,7 +21,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-[1.1]"
         >
-          I'm <span className="text-white">Aryan Chaudhary</span>
+          I'm <span className="text-white">Sahil Kumar</span>
         </motion.h1>
         
         <motion.p 
@@ -30,7 +30,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-gray-400 text-lg mb-10 max-w-md"
         >
-          A full stack developer based in India.
+          A MERN Stack developer & aspiring SDE based in Ambala Cantt, India.
         </motion.p>
         
         <motion.div
@@ -38,9 +38,9 @@ export default function Hero() {
            animate={{ opacity: 1, y: 0 }}
            transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <button className="bg-brand hover:bg-brand-dark text-white px-8 py-3 rounded-lg font-medium transition-colors shadow-[0_0_20px_rgba(249,115,22,0.3)]">
+          <a href="#about" className="bg-brand hover:bg-brand-dark text-white px-8 py-3 rounded-lg font-medium transition-colors shadow-[0_0_20px_rgba(249,115,22,0.3)] inline-block">
             Learn more
-          </button>
+          </a>
         </motion.div>
       </div>
 
@@ -51,7 +51,7 @@ export default function Hero() {
         className="hidden lg:flex relative w-1/2 justify-center items-center h-full min-h-[500px]"
       >
         <div className="relative w-80 h-80 bg-gray-800/30 rounded-full flex items-center justify-center backdrop-blur-3xl border border-gray-700/50 z-10">
-            <img src={profileImg} alt="Aryan Chaudhary" className="w-full h-full object-cover rounded-full shadow-lg" />
+            <img src={profileImg} alt="Sahil Kumar" className="w-full h-full object-cover rounded-full shadow-lg" />
             {/* Decorative particles */}
             <motion.div 
               animate={{ y: [0, -20, 0] }} 

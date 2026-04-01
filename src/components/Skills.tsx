@@ -1,17 +1,19 @@
 import { motion } from 'framer-motion';
-import { Layout, FileCode2, Terminal, MonitorSmartphone, Server, Database, Github, AppWindow, Container } from 'lucide-react';
+import { Code2, Terminal, Server, Database, Github, Container, Globe, Cpu, MonitorSmartphone, Layout } from 'lucide-react';
 
 const skills = [
-  { name: 'HTML5', icon: <Layout size={36} strokeWidth={1.5} /> },
-  { name: 'CSS / SCSS', icon: <FileCode2 size={36} strokeWidth={1.5} /> },
-  { name: 'JavaScript', icon: <Terminal size={36} strokeWidth={1.5} /> },
-  { name: 'React', icon: <MonitorSmartphone size={36} strokeWidth={1.5} /> },
-  { name: 'Next.js', icon: <AppWindow size={36} strokeWidth={1.5} /> },
+  { name: 'C++', icon: <Code2 size={36} strokeWidth={1.5} /> },
+  { name: 'Java', icon: <Terminal size={36} strokeWidth={1.5} /> },
+  { name: 'React.js', icon: <MonitorSmartphone size={36} strokeWidth={1.5} /> },
   { name: 'Node.js', icon: <Server size={36} strokeWidth={1.5} /> },
-  { name: 'PostgreSQL', icon: <Database size={36} strokeWidth={1.5} /> },
+  { name: 'Laravel', icon: <Globe size={36} strokeWidth={1.5} /> },
   { name: 'MongoDB', icon: <Database size={36} strokeWidth={1.5} /> },
+  { name: 'MySQL', icon: <Database size={36} strokeWidth={1.5} /> },
   { name: 'Docker', icon: <Container size={36} strokeWidth={1.5} /> },
-  { name: 'GitHub', icon: <Github size={36} strokeWidth={1.5} /> },
+  { name: 'Kubernetes', icon: <Cpu size={36} strokeWidth={1.5} /> },
+  { name: 'Git / GitHub', icon: <Github size={36} strokeWidth={1.5} /> },
+  { name: 'Linux', icon: <Terminal size={36} strokeWidth={1.5} /> },
+  { name: 'HTML / CSS', icon: <Layout size={36} strokeWidth={1.5} /> },
 ];
 
 export default function Skills() {

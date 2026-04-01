@@ -7,8 +7,8 @@ export default function Sidebar() {
       
       <div className="flex flex-col items-center gap-8 relative pointer-events-auto">
         <div className="flex flex-col gap-6 text-gray-500">
-          <a href="https://www.linkedin.com/in/aryan-04-chaudhary/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Linkedin size={20} /></a>
-          <a href="https://github.com/arynothic" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Github size={20} /></a>
+          <a href="https://www.linkedin.com/in/sahil-kumarx2004/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Linkedin size={20} /></a>
+          <a href="https://github.com/sahilx3108" target="_blank" rel="noreferrer" className="hover:text-white transition-colors"><Github size={20} /></a>
           <a href="#" className="hover:text-white transition-colors"><Twitter size={20} /></a>
         </div>
         

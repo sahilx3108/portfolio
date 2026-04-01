@@ -2,13 +2,13 @@ import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
 
 const education = [
-  { year: "Aug '23 - Present", degree: "B.Tech Computer Science and Engineering (CGPA: 7.3)", institution: "Lovely Professional University, Phagwara" },
-  { year: "Mar '21 - May '22", degree: "Intermediate PCM (75%)", institution: "MD International School, Baghpat" },
-  { year: "Mar '19 - May '20", degree: "Matriculation (87%)", institution: "Christu Jyoti Convent School, Baghpat" },
+  { year: "2023 - 2027", degree: "B.Tech Computer Science & Engineering (CGPA: 7.3)", institution: "Lovely Professional University, Jalandhar, Punjab" },
+  { year: "2020 - 2022", degree: "Intermediate (80%)", institution: "Kendriya Vidyalaya No. 1 AFS, Agra, Uttar Pradesh" },
+  { year: "2018 - 2020", degree: "Matriculation (85%)", institution: "Kendriya Vidyalaya No. 1 AFS, Agra, Uttar Pradesh" },
 ];
 
 const experience = [
-  { year: "Jun '25 - Jul '25", role: "Full Stack Development using MERN", company: "Cipher Schools (Edtech Company)" },
+  { year: "Present", role: "Self-directed Projects & Open Source", company: "Building full-stack MERN applications, AI-powered platforms, and authentication systems" },
 ];
 
 export default function Resume() {
@@ -22,10 +22,8 @@ export default function Resume() {
       >
         <h2 className="text-3xl font-semibold">Resume & Education</h2>
         <a 
-          href="/CV.jpg" 
-          download="Aryan_Chaudhary_CV.jpg"
-          target="_blank" 
-          rel="noopener noreferrer"
+          href="/image.png" 
+          download="Sahil_Kumar_CV.png"
           className="mt-4 inline-flex items-center gap-2 bg-brand/90 hover:bg-brand text-white px-6 py-2.5 text-sm font-medium rounded transition-colors shadow-lg shadow-brand/20"
         >
           <Download size={18} />

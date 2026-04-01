@@ -14,25 +14,25 @@ export default function Contact() {
           className="w-full lg:w-1/2"
         >
           <div className="flex items-center gap-4 mb-4">
-             <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-3xl">😎</div>
+             <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-3xl">👋</div>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-8">Get a quote</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-8">Let's Connect</h2>
           <p className="text-gray-400 mb-12 max-w-md leading-relaxed">
-            Whether you need a modern website, a custom web application, or improvements to your existing platform, I’m here to help. Share your requirements, goals, and timeline, and I’ll provide you with a tailored quote that fits your needs and budget.
+            I'm currently looking for SDE opportunities at product-based companies. Whether you'd like to discuss a project, a role, or just want to connect — feel free to reach out!
           </p>
           
           <div className="space-y-6">
             <div className="flex items-center gap-4">
               <Mail className="text-brand" size={20} />
-              <span className="text-gray-300">duhoonaryan2006@gmail.com</span>
+              <span className="text-gray-300">Sahilx3108@gmail.com</span>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="text-brand" size={20} />
-              <span className="text-gray-300">9815243015</span>
+              <span className="text-gray-300">+91 7668671987</span>
             </div>
             <div className="flex flex-start gap-4">
               <MapPin className="text-brand mt-1" size={20} />
-              <span className="text-gray-300">Meerut, Uttar Pradesh, India</span>
+              <span className="text-gray-300">Ambala Cantt, Haryana, India</span>
             </div>
           </div>
         </motion.div>

@@ -2,30 +2,10 @@ import { motion } from 'framer-motion';
 
 const certifications = [
   {
-    year: "Nov '25",
-    title: "Privacy and Security on Social Media",
+    year: "2025",
+    title: "Privacy and Security in Social Media",
     issuer: "NPTEL",
   },
-  {
-    year: "Nov '24",
-    title: "Digital Systems: From Logic Gates to Processors",
-    issuer: "Coursera",
-  },
-  {
-    year: "Nov '24",
-    title: "Peer-to-Peer Protocols and Local Area Networks",
-    issuer: "Coursera",
-  },
-  {
-    year: "Sep '24",
-    title: "The Bits and Bytes of Computer Networking",
-    issuer: "Coursera",
-  },
-  {
-    year: "Sep '24",
-    title: "Introduction to Hardware and Operating Systems",
-    issuer: "Coursera",
-  }
 ];
 
 export default function Certifications() {

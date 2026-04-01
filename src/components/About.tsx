@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import arynothic1 from '../assets/arynothic1.jpg';
+import sahilImg from '../assets/sahil.jpg';
 
 
 export default function About() {
@@ -14,10 +14,10 @@ export default function About() {
           transition={{ duration: 0.8 }}
           className="w-full lg:w-2/5 relative flex justify-center"
         >
-          <div className="aspect-[3/4] bg-bg-card rounded-lg overflow-hidden relative grayscale hover:grayscale-0 transition-all duration-700 w-full max-w-sm">
+          <div className="aspect-[3/4] bg-bg-card rounded-lg overflow-hidden relative grayscale hover:grayscale-0 hover:shadow-[0_0_40px_rgba(249,115,22,0.15)] transition-all duration-700 w-full max-w-sm">
             <img
-              src={arynothic1}
-              alt="Aryan"
+              src={sahilImg}
+              alt="Sahil Kumar"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-brand/10 mix-blend-overlay"></div>
@@ -41,14 +41,14 @@ export default function About() {
         >
           <h2 className="text-2xl font-semibold mb-6">About me</h2>
           <h3 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-8 leading-tight">
-            I will <span className="text-brand">Design & Develop</span> the best websites
+            I <span className="text-brand">Build & Scale</span> full-stack web applications
           </h3>
           <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
             <p>
-              I am a passionate software engineer with a keen eye for aesthetics. I blend technical expertise with creative problem-solving to build digital experiences that leave a lasting impression.
+              I'm Sahil Kumar, a B.Tech Computer Science student at Lovely Professional University with a passion for building efficient web applications using the MERN Stack, C++, and Cloud Computing.
             </p>
             <p>
-              Whether it's interactive front-end development, seamless animations, or robust back-end architecture, I ensure every pixel serves a purpose and every line of code is optimized for peak performance.
+              From secure authentication systems to AI-powered decision platforms, I love tackling complex problems and turning them into elegant, scalable solutions. I'm always exploring new technologies like Docker, Kubernetes, and AI to stay ahead of the curve.
             </p>
           </div>
         </motion.div>

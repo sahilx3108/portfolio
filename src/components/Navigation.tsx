@@ -8,7 +8,7 @@ export default function Navigation() {
       </div>
       
       <div className="text-xl font-bold tracking-wider pointer-events-auto">
-        <span className="text-brand">@arynothic</span>
+        <span className="text-brand">@sahilx3108</span>
       </div>
       
       <div className="flex-1"></div>
