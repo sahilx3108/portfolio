@@ -22,8 +22,8 @@ export default function Resume() {
       >
         <h2 className="text-3xl font-semibold">Resume & Education</h2>
         <a 
-          href="/image.png" 
-          download="Sahil_Kumar_CV.png"
+          href="/CV_Format_forTeacherfinal_Sahil.pdf" 
+          download="Sahil_Kumar_CV.pdf"
           className="mt-4 inline-flex items-center gap-2 bg-brand/90 hover:bg-brand text-white px-6 py-2.5 text-sm font-medium rounded transition-colors shadow-lg shadow-brand/20"
         >
           <Download size={18} />
